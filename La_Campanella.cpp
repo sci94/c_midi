@@ -81,7 +81,7 @@ int main(void)
 {
 	unsigned long f=midiOutOpen(&handle, 0, 0, 0, CALLBACK_NULL);
 if (f)
-	cout<<"ERROR:无 MIDI 播放设备";
+	cout<<"ERROR:脦脼 MIDI 虏楼路脜脡猫卤赂";
 else {
 	cout << "BPM:";
 	cin >> BPM;
@@ -418,7 +418,6 @@ else {
 	MM(SG1,0),MM(SD6,0),M2(SD2,SG6,PP),S(PP),S(PP),MMM(SG2,0),MM(SD3,0),M(B3,PP),S(P);
 	MMM(B3,0),MMM(SG,0),M2(SD,SD6,P*3);
 	Sleep(P*3);
-	printf("谢谢大家！\n");
 	midiOutClose(handle);
 }
 	return 0;	
